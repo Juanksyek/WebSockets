@@ -359,3 +359,7 @@ const parseGetMessageBody = (body: string | null) => {
 
   return getMessagesBody;
 };
+
+//Commandos para testear en wscat CLI 
+//wscat -c wss://eex5p2uf7d.execute-api.us-east-1.amazonaws.com/dev?nickname=Carlos
+//{"action":"sendMessage","message":"Hi","recipientNickname":"Carlos"}
